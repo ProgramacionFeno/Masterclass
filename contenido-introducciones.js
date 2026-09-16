@@ -33,5 +33,13 @@ window.INTRO_CONTENT = {
     evaluacionTitulo: "A continuación te invitamos a responder unas preguntas sobre el contenido de la masterclass",
     evaluacionTexto: "Son 10 preguntas de opción múltiple y una pregunta final de opinión. Te recomendamos responderlas después de mirar la clase con atención.",
     evaluacionObjetivo: "El objetivo de esta actividad es acompañar la comprensión de los principales conceptos presentados por Nadia Cerino."
+  },
+  "juan-pablo-paz": {
+    portadaTitulo: "Masterclass de Juan Pablo Paz",
+    portadaSubtitulo: "",
+    portadaTexto: "Queremos acompañarte a revisar los principales contenidos de esta masterclass. La actividad te llevará pocos minutos y, si alcanzás el puntaje de aprobación, podrás descargar tu certificado.",
+    evaluacionTitulo: "A continuación te invitamos a responder unas preguntas sobre el contenido de la masterclass",
+    evaluacionTexto: "Son 10 preguntas de opción múltiple. Te recomendamos responderlas después de mirar la clase con atención.",
+    evaluacionObjetivo: "El objetivo de esta actividad es acompañar la comprensión de los principales conceptos presentados por Juan Pablo Paz. La evaluación se aprueba con 4 respuestas correctas."
   }
 };
