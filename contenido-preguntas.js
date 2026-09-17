@@ -1409,7 +1409,7 @@ window.QUESTIONNAIRE_DATA = [
           { "key": "A", "text": "…viajan en el vacío a la velocidad de la luz, aproximadamente 300.000 kilómetros por segundo." },
           { "key": "B", "text": "…“llevan energía” proporcional a su frecuencia: a mayor frecuencia, mayor energía." },
           { "key": "C", "text": "…incluyen a la luz visible, las ondas de radio y los rayos X, que son todas ondas electromagnéticas, pero con distintas frecuencias." },
-          { "key": "D", "text": "Todas las anteriores son correctas." }
+          { "key": "D", "text": "Todas son correctas." }
         ],
         "correct": "D",
         "feedback": "",
