@@ -1470,7 +1470,7 @@ window.QUESTIONNAIRE_DATA = [
           { "key": "D", "text": "Modifican nuestro ADN para generar defensas." }
         ],
         "correct": "A",
-        "feedback": "La opción A es correcta porque las vacunas simulan la presencia del agente infeccioso utilizando una forma atenuada, inactivada o fragmentos del mismo. Esto permite entrenar al sistema inmunitario para que genere memoria sin provocar la enfermedad real ni depender del patógeno activo para atacar el cuerpo.",
+        "feedback": "Las vacunas simulan la presencia del agente infeccioso utilizando una forma atenuada, inactivada o fragmentos del mismo. Esto permite entrenar al sistema inmunitario para que genere memoria sin provocar la enfermedad real ni depender del patógeno activo para atacar el cuerpo.",
         "scored": true
       },
       {
@@ -1483,7 +1483,7 @@ window.QUESTIONNAIRE_DATA = [
           { "key": "D", "text": "Un tipo especial de células, un clon específico de linfocitos B, se “despierta”, se multiplica y comienza a producir grandes cantidades de anticuerpos específicos." }
         ],
         "correct": "D",
-        "feedback": "La opción D es la más precisa y completa. Ante la entrada de un antígeno extraño, solo el clon específico de linfocitos B que posee receptores compatibles se activa, se multiplica masivamente (expansión clonal) y produce anticuerpos específicos en grandes cantidades.",
+        "feedback": "Ante la entrada de un antígeno extraño, solo el clon específico de linfocitos B que posee receptores compatibles se activa, se multiplica masivamente (expansión clonal) y produce anticuerpos específicos en grandes cantidades.",
         "shuffle": false,
         "scored": true
       },
@@ -1497,7 +1497,7 @@ window.QUESTIONNAIRE_DATA = [
           { "key": "D", "text": "Todas son correctas." }
         ],
         "correct": "D",
-        "feedback": "La opción D es correcta porque todas las afirmaciones son verdaderas. Los anticuerpos identifican y neutralizan agentes extraños (A), reconocen fragmentos específicos de dichos agentes (B), y el tipo de anticuerpo varía según el momento de la respuesta inmunitaria: IgM en la respuesta primaria (primera exposición) e IgG en la respuesta secundaria (posterior exposición, más rápida e intensa) (C).",
+        "feedback": "Todas las afirmaciones son verdaderas: los anticuerpos identifican y neutralizan agentes extraños, reconocen fragmentos específicos de dichos agentes y el tipo de anticuerpo varía según el momento de la respuesta inmunitaria. Se produce IgM en la respuesta primaria e IgG en la respuesta secundaria, que es más rápida e intensa.",
         "scored": true
       },
       {
@@ -1510,7 +1510,7 @@ window.QUESTIONNAIRE_DATA = [
           { "key": "D", "text": "No estoy segura/o." }
         ],
         "correct": "B",
-        "feedback": "La opción B es correcta. La tasa de cobertura vacunatoria es un indicador de salud pública que mide la proporción de la población objetivo (quienes deben recibir la vacuna según el calendario) que efectivamente ha sido inmunizada. No mide la eficacia individual ni la probabilidad de contagio.",
+        "feedback": "La tasa de cobertura vacunatoria es un indicador de salud pública que mide la proporción de la población objetivo (quienes deben recibir la vacuna según el calendario) que efectivamente ha sido inmunizada. No mide la eficacia individual ni la probabilidad de contagio.",
         "scored": true
       },
       {
@@ -1523,7 +1523,7 @@ window.QUESTIONNAIRE_DATA = [
           { "key": "D", "text": "La protección que se logra cuando hay suficientes personas inmunizadas como para frenar la circulación del agente y cuidar a quienes no pueden vacunarse." }
         ],
         "correct": "D",
-        "feedback": "La opción D es correcta. La inmunidad de rebaño o comunitaria ocurre cuando una alta proporción de la población está inmunizada, reduciendo drásticamente la circulación del microorganismo y protegiendo de manera indirecta a aquellas personas que no pueden vacunarse por motivos médicos.",
+        "feedback": "La inmunidad de rebaño o comunitaria ocurre cuando una alta proporción de la población está inmunizada, reduciendo drásticamente la circulación del microorganismo y protegiendo de manera indirecta a aquellas personas que no pueden vacunarse por motivos médicos.",
         "scored": true
       },
       {
@@ -1536,7 +1536,7 @@ window.QUESTIONNAIRE_DATA = [
           { "key": "D", "text": "La presencia de fiebre indica que debe suspenderse cualquier esquema de vacunación futuro." }
         ],
         "correct": "B",
-        "feedback": "La opción B es correcta. La fiebre es una reacción inflamatoria sistémica natural que indica que el sistema inmune está respondiendo al estímulo de la vacuna. No todas las personas presentan fiebre, pero su aparición no significa que la vacuna esté reproduciendo la enfermedad ni exige interrumpir el esquema de vacunación.",
+        "feedback": "La fiebre es una reacción inflamatoria sistémica natural que indica que el sistema inmune está respondiendo al estímulo de la vacuna. No todas las personas presentan fiebre, pero su aparición no significa que la vacuna esté reproduciendo la enfermedad ni exige interrumpir el esquema de vacunación.",
         "scored": true
       },
       {
@@ -1549,7 +1549,7 @@ window.QUESTIONNAIRE_DATA = [
           { "key": "D", "text": "Fortalecen las defensas en general, así el cuerpo queda más preparado frente a cualquier infección." }
         ],
         "correct": "B",
-        "feedback": "La opción B es correcta. El principio fundamental de las vacunas es presentar al sistema inmunitario componentes inofensivos o inactivados del agente infeccioso para desencadenar una respuesta inmune primaria y generar células de memoria, asegurando una respuesta rápida y efectiva ante infecciones futuras.",
+        "feedback": "El principio fundamental de las vacunas es presentar al sistema inmunitario componentes inofensivos o inactivados del agente infeccioso para desencadenar una respuesta inmune primaria y generar células de memoria, asegurando una respuesta rápida y efectiva ante infecciones futuras.",
         "scored": true
       },
       {
@@ -1563,7 +1563,7 @@ window.QUESTIONNAIRE_DATA = [
         ],
         "correct": ["B", "C"],
         "multiple": true,
-        "feedback": "Las opciones B y C son verdaderas. Aunque existe memoria inmunitaria, algunas vacunas requieren refuerzos (dosis adicionales) para mantener niveles óptimos de anticuerpos (B). Además, virus como el de la gripe o SARS-CoV-2 presentan alta variabilidad antigénica por mutación, requiriendo vacunas actualizadas periódicamente (C).",
+        "feedback": "Aunque existe memoria inmunitaria, algunas vacunas requieren refuerzos o dosis adicionales para mantener niveles óptimos de anticuerpos. Además, virus como el de la gripe o SARS-CoV-2 presentan alta variabilidad antigénica por mutación, por lo que requieren vacunas actualizadas periódicamente.",
         "scored": true
       },
       {
@@ -1577,7 +1577,7 @@ window.QUESTIONNAIRE_DATA = [
         ],
         "correct": ["A", "B"],
         "multiple": true,
-        "feedback": "Las opciones A y B son verdaderas. Ante un segundo contacto con el mismo patógeno, las células de memoria se activan rápido y generan una respuesta más veloz e intensa que la primera vez (A). Después de una infección, parte de los linfocitos B específicos queda como células de memoria, que pueden persistir durante años (B). La opción C es falsa porque las vacunas también generan memoria. La opción D es falsa porque la memoria es específica para cada patógeno.",
+        "feedback": "Ante un segundo contacto con el mismo patógeno, las células de memoria se activan rápido y generan una respuesta más veloz e intensa que la primera vez. Después de una infección, parte de los linfocitos B específicos queda como células de memoria, que pueden persistir durante años. Las vacunas también generan memoria, y esa memoria es específica para cada patógeno.",
         "scored": true
       },
       {
@@ -1591,7 +1591,7 @@ window.QUESTIONNAIRE_DATA = [
         ],
         "correct": ["B", "C"],
         "multiple": true,
-        "feedback": "Las opciones B y C son correctas. ARVAC es la primera vacuna contra la COVID-19 desarrollada íntegramente en Argentina. Además, al estar basada en proteína recombinante, no contiene el virus vivo ni inactivado, lo que le confiere un perfil de seguridad muy alto. La A es falsa porque la vacuna contra la fiebre hemorrágica también se produce en el país.",
+        "feedback": "ARVAC es la primera vacuna contra la COVID-19 desarrollada íntegramente en Argentina. Además, al estar basada en proteína recombinante, no contiene el virus vivo ni inactivado, lo que le confiere un perfil de seguridad muy alto. No es la única vacuna para humanos fabricada en el país: la vacuna contra la fiebre hemorrágica también se produce en Argentina.",
         "scored": true
       }
     ]
