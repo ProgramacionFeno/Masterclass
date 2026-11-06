@@ -1409,7 +1409,7 @@ window.QUESTIONNAIRE_DATA = [
           { "key": "A", "text": "…viajan en el vacío a la velocidad de la luz, aproximadamente 300.000 kilómetros por segundo." },
           { "key": "B", "text": "…“llevan energía” proporcional a su frecuencia: a mayor frecuencia, mayor energía." },
           { "key": "C", "text": "…incluyen a la luz visible, las ondas de radio y los rayos X, que son todas ondas electromagnéticas, pero con distintas frecuencias." },
-          { "key": "D", "text": "Todas son correctas." }
+          { "key": "D", "text": "Todas las anteriores son correctas." }
         ],
         "correct": "D",
         "feedback": "",
@@ -1449,6 +1449,149 @@ window.QUESTIONNAIRE_DATA = [
         ],
         "correct": "C",
         "feedback": "",
+        "scored": true
+      }
+    ]
+  },
+  {
+    "slug": "cassataro",
+    "presenter": "Juliana Cassataro",
+    "title": "Del laboratorio al aula: hackear las ideas sobre el sistema inmune",
+    "passingScore": 5,
+    "pinGenericAtD": true,
+    "questions": [
+      {
+        "number": 1,
+        "prompt": "Decimos que las vacunas “hackean” las defensas porque:",
+        "options": [
+          { "key": "A", "text": "Usan el sistema inmune para reconocer a un agente extraño y generar memoria, pero sin que el agente cause la enfermedad." },
+          { "key": "B", "text": "Usan al agente infeccioso para entrar a nuestras células." },
+          { "key": "C", "text": "Atacan y eliminan directamente al agente infeccioso." },
+          { "key": "D", "text": "Modifican nuestro ADN para generar defensas." }
+        ],
+        "correct": "A",
+        "feedback": "La opción A es correcta porque las vacunas simulan la presencia del agente infeccioso utilizando una forma atenuada, inactivada o fragmentos del mismo. Esto permite entrenar al sistema inmunitario para que genere memoria sin provocar la enfermedad real ni depender del patógeno activo para atacar el cuerpo.",
+        "scored": true
+      },
+      {
+        "number": 2,
+        "prompt": "Cuando ingresa un agente extraño al cuerpo:",
+        "options": [
+          { "key": "A", "text": "Un tipo especial de células, los linfocitos B, se “despiertan” y comienzan a atacar al agente extraño." },
+          { "key": "B", "text": "Un tipo especial de células, los linfocitos B, se “despiertan” y comienzan a producir grandes cantidades de anticuerpos." },
+          { "key": "C", "text": "Un tipo especial de células, un clon específico de linfocitos B, se “despierta” y comienza a producir grandes cantidades de anticuerpos específicos." },
+          { "key": "D", "text": "Un tipo especial de células, un clon específico de linfocitos B, se “despierta”, se multiplica y comienza a producir grandes cantidades de anticuerpos específicos." }
+        ],
+        "correct": "D",
+        "feedback": "La opción D es la más precisa y completa. Ante la entrada de un antígeno extraño, solo el clon específico de linfocitos B que posee receptores compatibles se activa, se multiplica masivamente (expansión clonal) y produce anticuerpos específicos en grandes cantidades.",
+        "shuffle": false,
+        "scored": true
+      },
+      {
+        "number": 3,
+        "prompt": "¿Con cuál —o cuáles— de las siguientes afirmaciones estás de acuerdo?",
+        "options": [
+          { "key": "A", "text": "Los anticuerpos son moléculas especializadas en identificar y neutralizar agentes extraños." },
+          { "key": "B", "text": "Cada anticuerpo está dirigido hacia una parte específica de un agente extraño." },
+          { "key": "C", "text": "Existen distintos tipos de anticuerpos. Cuando ingresa un agente extraño por primera vez, se producen inmunoglobulinas M, y cuando vuelve a ingresar se produce una respuesta más veloz y más potente con inmunoglobulinas G." },
+          { "key": "D", "text": "Todas son correctas." }
+        ],
+        "correct": "D",
+        "feedback": "La opción D es correcta porque todas las afirmaciones son verdaderas. Los anticuerpos identifican y neutralizan agentes extraños (A), reconocen fragmentos específicos de dichos agentes (B), y el tipo de anticuerpo varía según el momento de la respuesta inmunitaria: IgM en la respuesta primaria (primera exposición) e IgG en la respuesta secundaria (posterior exposición, más rápida e intensa) (C).",
+        "scored": true
+      },
+      {
+        "number": 4,
+        "prompt": "Cuando hablamos de la tasa de cobertura de una vacuna hablamos de:",
+        "options": [
+          { "key": "A", "text": "El porcentaje de personas vacunadas que quedan protegidas frente a la enfermedad." },
+          { "key": "B", "text": "El porcentaje de personas a quienes les corresponde vacunarse que ya se vacunaron." },
+          { "key": "C", "text": "La probabilidad de que una persona contraiga la enfermedad una vez vacunada." },
+          { "key": "D", "text": "No estoy segura/o." }
+        ],
+        "correct": "B",
+        "feedback": "La opción B es correcta. La tasa de cobertura vacunatoria es un indicador de salud pública que mide la proporción de la población objetivo (quienes deben recibir la vacuna según el calendario) que efectivamente ha sido inmunizada. No mide la eficacia individual ni la probabilidad de contagio.",
+        "scored": true
+      },
+      {
+        "number": 5,
+        "prompt": "La inmunidad de rebaño es:",
+        "options": [
+          { "key": "A", "text": "La protección que tiene cada persona vacunada, que le impide contagiarse y transmitir la enfermedad." },
+          { "key": "B", "text": "La protección que se alcanza cuando se vacuna a la totalidad de la población." },
+          { "key": "C", "text": "La inmunidad que las personas vacunadas les transmiten a las no vacunadas por contacto cercano." },
+          { "key": "D", "text": "La protección que se logra cuando hay suficientes personas inmunizadas como para frenar la circulación del agente y cuidar a quienes no pueden vacunarse." }
+        ],
+        "correct": "D",
+        "feedback": "La opción D es correcta. La inmunidad de rebaño o comunitaria ocurre cuando una alta proporción de la población está inmunizada, reduciendo drásticamente la circulación del microorganismo y protegiendo de manera indirecta a aquellas personas que no pueden vacunarse por motivos médicos.",
+        "scored": true
+      },
+      {
+        "number": 6,
+        "prompt": "Luego de la aplicación de algunas vacunas, puede presentarse fiebre:",
+        "options": [
+          { "key": "A", "text": "La fiebre es un indicio de que la vacuna va a funcionar bien." },
+          { "key": "B", "text": "La fiebre es una reacción corporal natural, que no todas las personas presentan luego de la aplicación." },
+          { "key": "C", "text": "La fiebre se produce porque la vacuna reproduce la enfermedad a pequeña escala." },
+          { "key": "D", "text": "La presencia de fiebre indica que debe suspenderse cualquier esquema de vacunación futuro." }
+        ],
+        "correct": "B",
+        "feedback": "La opción B es correcta. La fiebre es una reacción inflamatoria sistémica natural que indica que el sistema inmune está respondiendo al estímulo de la vacuna. No todas las personas presentan fiebre, pero su aparición no significa que la vacuna esté reproduciendo la enfermedad ni exige interrumpir el esquema de vacunación.",
+        "scored": true
+      },
+      {
+        "number": 7,
+        "prompt": "Las vacunas funcionan porque:",
+        "options": [
+          { "key": "A", "text": "Reproducen la enfermedad tal cual si hubiéramos contraído el agente infeccioso." },
+          { "key": "B", "text": "Entrenan al sistema inmune con una parte inofensiva del agente, para que lo reconozca y responda rápido cuando lo encuentre de verdad." },
+          { "key": "C", "text": "Incorporan anticuerpos ya fabricados que combaten al agente hasta que el cuerpo lo elimina." },
+          { "key": "D", "text": "Fortalecen las defensas en general, así el cuerpo queda más preparado frente a cualquier infección." }
+        ],
+        "correct": "B",
+        "feedback": "La opción B es correcta. El principio fundamental de las vacunas es presentar al sistema inmunitario componentes inofensivos o inactivados del agente infeccioso para desencadenar una respuesta inmune primaria y generar células de memoria, asegurando una respuesta rápida y efectiva ante infecciones futuras.",
+        "scored": true
+      },
+      {
+        "number": 8,
+        "prompt": "¿Cuáles de estas afirmaciones te parecen verdaderas?",
+        "options": [
+          { "key": "A", "text": "Gracias a que el sistema inmune tiene “memoria”, las vacunas no necesitan más de una única aplicación." },
+          { "key": "B", "text": "A pesar de que el sistema inmune tiene “memoria”, algunas vacunas necesitan más de una aplicación." },
+          { "key": "C", "text": "El sistema inmune tiene “memoria”, pero algunos patógenos mutan rápidamente, por lo que algunas vacunas necesitan adaptarse y aplicarse anualmente." },
+          { "key": "D", "text": "El sistema inmune genera una respuesta idéntica ante cualquier tipo de patógeno, sin importar su variabilidad." }
+        ],
+        "correct": ["B", "C"],
+        "multiple": true,
+        "feedback": "Las opciones B y C son verdaderas. Aunque existe memoria inmunitaria, algunas vacunas requieren refuerzos (dosis adicionales) para mantener niveles óptimos de anticuerpos (B). Además, virus como el de la gripe o SARS-CoV-2 presentan alta variabilidad antigénica por mutación, requiriendo vacunas actualizadas periódicamente (C).",
+        "scored": true
+      },
+      {
+        "number": 9,
+        "prompt": "¿Cuáles de estas afirmaciones te parecen verdaderas?",
+        "options": [
+          { "key": "A", "text": "Ante un segundo contacto con el mismo patógeno, la respuesta inmune suele ser más rápida e intensa que la primera vez." },
+          { "key": "B", "text": "Después de una infección, algunos linfocitos permanecen como células de memoria, aunque el patógeno ya haya sido eliminado." },
+          { "key": "C", "text": "La memoria inmunológica solo se genera por infección natural; las vacunas no la producen." },
+          { "key": "D", "text": "La memoria inmunológica es inespecífica: haber superado una infección protege por igual frente a cualquier otro patógeno." }
+        ],
+        "correct": ["A", "B"],
+        "multiple": true,
+        "feedback": "Las opciones A y B son verdaderas. Ante un segundo contacto con el mismo patógeno, las células de memoria se activan rápido y generan una respuesta más veloz e intensa que la primera vez (A). Después de una infección, parte de los linfocitos B específicos queda como células de memoria, que pueden persistir durante años (B). La opción C es falsa porque las vacunas también generan memoria. La opción D es falsa porque la memoria es específica para cada patógeno.",
+        "scored": true
+      },
+      {
+        "number": 10,
+        "prompt": "Marcá la o las opciones correctas:",
+        "options": [
+          { "key": "A", "text": "ARVAC es la única vacuna para humanos que se fabrica en la Argentina." },
+          { "key": "B", "text": "ARVAC es la primera vacuna contra la COVID-19 diseñada y desarrollada íntegramente en la Argentina." },
+          { "key": "C", "text": "ARVAC no contiene el virus: es una vacuna de proteína recombinante, una tecnología conocida, y su seguridad se evaluó en ensayos clínicos." },
+          { "key": "D", "text": "Todas son correctas." }
+        ],
+        "correct": ["B", "C"],
+        "multiple": true,
+        "feedback": "Las opciones B y C son correctas. ARVAC es la primera vacuna contra la COVID-19 desarrollada íntegramente en Argentina. Además, al estar basada en proteína recombinante, no contiene el virus vivo ni inactivado, lo que le confiere un perfil de seguridad muy alto. La A es falsa porque la vacuna contra la fiebre hemorrágica también se produce en el país.",
         "scored": true
       }
     ]
